@@ -211,7 +211,7 @@ h1 {
   display: flex;
   justify-content: center;
   min-width: 200px;
-  min-height: 30vh;
+  min-height: 29vh;
 }
 
 * {

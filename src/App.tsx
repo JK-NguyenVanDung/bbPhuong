@@ -7,10 +7,18 @@ function App() {
     <>
       <div className="container">
         <div className="cont">
-          <div className="letter">
-            <h1>
-              Kính gửi tặng em yêu Hà Phương nhân ngày Phụ nữ Việt Nam (✿◡w◡)
-            </h1>
+          <div className="letterCont">
+            <div className="wrapper">
+              <div className="lid one"></div>
+              <div className="lid two"></div>
+              <div className="envelope"></div>
+              <div className="letter">
+                <h1>
+                  Kính gửi tặng em yêu Hà Phương nhân ngày Phụ nữ Việt Nam
+                  (✿◡w◡)
+                </h1>
+              </div>
+            </div>
           </div>
           <div className="roseCont">
             <MainRose />

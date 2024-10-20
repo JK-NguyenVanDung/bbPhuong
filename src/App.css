@@ -211,7 +211,7 @@ h1 {
   display: flex;
   justify-content: center;
   min-width: 200px;
-  min-height: 500px;
+  min-height: 30vh;
 }
 
 * {
@@ -273,7 +273,7 @@ h1 {
 }
 
 .letterCont {
-  height: 55%;
+  height: 60%;
   display: flex;
   justify-content: center;
   flex-direction: column;

@@ -310,6 +310,10 @@ h1 {
   transition-delay: 0.5s;
 }
 
+.flowersEach {
+  bottom: 240px;
+}
+
 @media only screen and (max-width: 600px) {
   .cont {
     margin-bottom: 10rem;
@@ -330,5 +334,8 @@ h1 {
   .letterCont {
     margin-top: 10vh;
     height: auto;
+  }
+  .flowersEach {
+    bottom: 150px;
   }
 }

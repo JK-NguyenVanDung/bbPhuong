@@ -14,8 +14,7 @@ function App() {
               <div className="envelope"></div>
               <div className="letter">
                 <h1>
-                  Kính gửi tặng em yêu Hà Phương nhân ngày Phụ nữ Việt Nam
-                  (✿◡w◡)
+                  Kính gửi tặng Hà Phương nhân ngày Phụ nữ Việt Nam 20/10 (✿◡w◡)
                 </h1>
               </div>
             </div>
@@ -35,7 +34,10 @@ function App() {
 }
 function Flower({ position }: { position: string }) {
   return (
-    <div style={{ position: "absolute", left: position, bottom: 240 }}>
+    <div
+      className="flowersEach"
+      style={{ position: "absolute", left: position }}
+    >
       <div className="rose">
         <div className="flower">
           <div className="petal"></div>
